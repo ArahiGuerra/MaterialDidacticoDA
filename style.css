@@ -27,6 +27,21 @@ footer{
     margin-top:auto;
 }
 
+#toggleAudio{
+    margin-top:15px;
+    padding:10px 20px;
+    border:none;
+    border-radius:8px;
+    background:white;
+    color:#1f2937;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+#toggleAudio:hover{
+    opacity:.9;
+}
+
 .contenedor{
     display:flex;
     flex-wrap:wrap;
