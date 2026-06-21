@@ -3,199 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tarjetas Deporte Adaptado</title>
+    <title>Material Didáctico Deporte Adaptado</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
-        <h1>Tarjetas</h1>
-         <button id="toggleAudio">
-        🔊 Sonido activado
-    </button>
+    <header class="site-header">
+        <nav class="nav">
+            <a href="index.html" class="logo">Asociación de Deporte Adaptado de la UNAM</a>
+            <div class="nav-links">
+                <a href="index.html" class="active">Inicio</a>
+                <!-- <a href="tipos-disc.html">Tipos de deterioro elegibles en el movimiento paralímpico</a>
+                <a href="voca.html">Lenguaje inclusivo en el ámbito de la discapacidad</a> -->
+            </div>
+        </nav>
     </header>
 
-    <main class="contenedor">
+    <main class="hero">
 
-        <!-- Tarjeta 1 -->
-        <div class="card">
-            <div class="card-inner">
+        <section class="hero-intro">
+            <!-- <p class="eyebrow">Recursos didácticos</p> -->
+            <h1>Material didáctico para aprender sobre el <br><span>deporte adaptado</span></h1>
+            <p class="hero-text">Elige un tema para empezar. Cada tarjeta se voltea y contiene información explicativa, con sonido que puedes activar o desactivar.</p>
+        </section>
 
-                <div class="card-front">
-                    <img src="img/anverso.png" alt="Imagen 1">
-                </div>
+        <section class="deck-select">
 
-                <div class="card-back">
-                    <video playsinline preload="metadata">
-                        <source src="video/01.mp4" type="video/mp4">
-                    </video>
-                </div>
+            <a class="deck-card" href="tipos-disc.html">
+                <!-- <span class="deck-icon"></span> -->
+                <h2>Tipos de deterioro elegibles en el movimiento paralímpico</h2>
+                <p>TEXTOO.</p>
+                <span class="deck-cta">Entrar al material →</span>
+            </a>
 
-            </div>
-        </div>
+            <a class="deck-card" href="voca.html">
+                <!-- <span class="deck-icon"></span> -->
+                <h2>Lenguaje inclusivo en el ámbito de la discapacidad</h2>
+                <p>TEXTOOO</p>
+                <span class="deck-cta">Entrar al material →</span>
+            </a>
 
-        <!-- Tarjeta 2 -->
-        <div class="card">
-            <div class="card-inner">
-
-                <div class="card-front">
-                    <img src="img/anverso.png" alt="Imagen 2">
-                </div>
-
-                <div class="card-back">
-                    <video playsinline preload="metadata">
-                        <source src="video/02.mp4" type="video/mp4">
-                    </video>
-                </div>
-
-            </div>
-        </div>
-
-        <!-- Tarjeta 3 -->
-        <div class="card">
-            <div class="card-inner">
-
-                <div class="card-front">
-                    <img src="img/anverso.png" alt="Imagen 3">
-                </div>
-
-                <div class="card-back">
-                    <video playsinline preload="metadata">
-                        <source src="video/03.mp4" type="video/mp4">
-                    </video>
-                </div>
-
-            </div>
-        </div>
-
-        <!-- Tarjeta 4 -->
-        <div class="card">
-            <div class="card-inner">
-
-                <div class="card-front">
-                    <img src="img/anverso.png" alt="Imagen 3">
-                </div>
-
-                <div class="card-back">
-                    <video playsinline preload="metadata">
-                        <source src="video/04.mp4" type="video/mp4">
-                    </video>
-                </div>
-
-            </div>
-        </div>
-
-        <!-- Tarjeta 5 -->
-        <div class="card">
-            <div class="card-inner">
-
-                <div class="card-front">
-                    <img src="img/anverso.png" alt="Imagen 3">
-                </div>
-
-                <div class="card-back">
-                    <video playsinline preload="metadata">
-                        <source src="video/05.mp4" type="video/mp4">
-                    </video>
-                </div>
-
-            </div>
-        </div>
-
-        <!-- Tarjeta 6 -->
-        <div class="card">
-            <div class="card-inner">
-
-                <div class="card-front">
-                    <img src="img/anverso.png" alt="Imagen 3">
-                </div>
-
-                <div class="card-back">
-                    <video playsinline preload="metadata">
-                        <source src="video/06.mp4" type="video/mp4">
-                    </video>
-                </div>
-
-            </div>
-        </div>
-
-        <!-- Tarjeta 7 -->
-        <div class="card">
-            <div class="card-inner">
-
-                <div class="card-front">
-                    <img src="img/anverso.png" alt="Imagen 3">
-                </div>
-
-                <div class="card-back">
-                    <video playsinline preload="metadata">
-                        <source src="video/07.mp4" type="video/mp4">
-                    </video>
-                </div>
-
-            </div>
-        </div>
-
-        <!-- Tarjeta 8 -->
-        <div class="card">
-            <div class="card-inner">
-
-                <div class="card-front">
-                    <img src="img/anverso.png" alt="Imagen 3">
-                </div>
-
-                <div class="card-back">
-                    <video playsinline preload="metadata">
-                        <source src="video/08.mp4" type="video/mp4">
-                    </video>
-                </div>
-
-            </div>
-        </div>
-
-        <!-- Tarjeta 9 -->
-        <div class="card">
-            <div class="card-inner">
-
-                <div class="card-front">
-                    <img src="img/anverso.png" alt="Imagen 3">
-                </div>
-
-                <div class="card-back">
-                    <video playsinline preload="metadata">
-                        <source src="video/09.mp4" type="video/mp4">
-                    </video>
-                </div>
-
-            </div>
-        </div>
-
-        <!-- Tarjeta 10 -->
-        <div class="card">
-            <div class="card-inner">
-
-                <div class="card-front">
-                    <img src="img/anverso.png" alt="Imagen 3">
-                </div>
-
-                <div class="card-back">
-                    <video playsinline preload="metadata">
-                        <source src="video/10.mp4" type="video/mp4">
-                    </video>
-                </div>
-
-            </div>
-        </div>
-
-        
+        </section>
 
     </main>
 
     <footer>
-        <p>pie de pagina</p>
+        <p>Asociación Deportiva de Deporte Adaptado de la UNAM</p>
     </footer>
-
-    <script src="script.js"></script>
 
 </body>
 </html>
